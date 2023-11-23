@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body{
+      background-color: #fff;
+    }
+    @media only screen and (max-width:1024px) {
+      body{
+        background-color: cornsilk;
+      }
+    }
+    @media only screen and (max-width:320px) {
+      body{
+        background-color: green;
+      }
+    }
+
+    .container{
+      background-color: #d0ceca;
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+      align-items: center;
+      align-content: flex-end;
+    }
+    .item{
+      height:100px;
+      width: 100px;
+    }
+    .item1{background-color: darkcyan;}
+    .item2{background-color: darkgray;flex-grow: 1}
+    .item3{background-color: darkgreen;flex-grow: 2}
+    .item4{background-color: aliceblue;}
+    .item5{background-color: darkmagenta;}
+    .item6{background-color: darksalmon;}
+    .item7{background-color: darkseagreen;}
+    .item8{background-color: darkcyan;}
+    .item9{background-color: darkslategray;}
+    .item10{background-color: darkblue;}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="item item1">test1</div>
+  <div class="item item2">test2</div>
+  <div class="item item3">test3</div>
+<!--  <div class="item item4">test4</div>-->
+<!--  <div class="item item5">test5</div>-->
+<!--  <div class="item item6">test6</div>-->
+<!--  <div class="item item7">test7</div>-->
+<!--  <div class="item item8">test8</div>-->
+<!--  <div class="item item9">test9</div>-->
+<!--  <div class="item item10">test10</div>-->
+</div>
+
+</body>
+</html>
