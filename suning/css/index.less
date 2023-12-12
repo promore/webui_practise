@@ -1,0 +1,45 @@
+@import "common";
+
+@BaseFontSize: 50;
+
+body{
+  min-width: 320px;
+  width: 15rem;
+  margin: 0 auto;
+  line-height: 1.5rem;
+  font-family: Arial,Helvetica;
+  background: #F2F2F2;
+}
+
+
+.search-content{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15rem;
+  height: 88rem ./ @BaseFontSize;
+  background-color: #FFC001;
+  .classify{
+    width: 44rem ./ @BaseFontSize;
+    height: 70rem ./ @BaseFontSize;
+    margin: 11rem ./ @BaseFontSize 25rem ./ @BaseFontSize 7rem ./ @BaseFontSize 24rem ./ @BaseFontSize;
+    background: url("../images/classify.png");
+    background-size: 44rem ./ @BaseFontSize 70rem ./ @BaseFontSize;
+  }
+  .search{
+    flex: 1;
+    background: palegoldenrod;
+  }
+  .login{
+    width: 75rem ./ @BaseFontSize;
+    height: 70rem ./ @BaseFontSize;
+    line-height: 70rem ./ @BaseFontSize;
+    margin: 10rem ./ @BaseFontSize;
+    color:#fff;
+    text-align: center;
+    font-size: 25rem ./ @BaseFontSize;
+  }
+}
+
